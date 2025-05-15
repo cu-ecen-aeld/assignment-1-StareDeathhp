@@ -14,6 +14,8 @@
 */
 void test_validate_my_username()
 {
+    const char *user_name_1 = my_username();
+    const char *user_name_2 = malloc_username_from_conf_file();
     /**
      * TODO: Replace the line below with your code here as described above to verify your /conf/username.txt 
      * config file and my_username() functions are setup properly
